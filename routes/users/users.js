@@ -7,8 +7,6 @@ router.get("/", function (req, res, next) {
   res.send("respond with a resource");
 });
 
-router.post("/users/sign-in", userController.signin);
-
 router.post("/sign-up", userController.signup);
 
 router.post("/sign-in", userController.signin);
